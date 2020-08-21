@@ -13,7 +13,8 @@ $saldo = 34.5;
 
 echo "seu saldo é $saldo";
 
-$saldo= $saldo - 10;
+$saldo= $saldo - 10; // operador de substração
 
 
 print "<br>agora seu saldo é $saldo";
+
