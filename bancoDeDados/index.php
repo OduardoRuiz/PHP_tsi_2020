@@ -11,7 +11,7 @@ nome VARCHAR(255) NOT NULL, whatsapp BIGINT) ')) {
     echo mysqli_connect_error();
 }
 
-$contato = ['nome' => 'Du', 'whatsapp' => '5511925633652'];
+$contato = ['nome' => 'nome', 'whatsapp' => '5511925633652'];
 
 if (mysqli_query($db, "INSERT INTO contatos (nome, whatsapp) VALUES('{$contato['nome']}','{$contato['whatsapp']}')")) {
 
@@ -53,4 +53,4 @@ if (mysqli_query($db, 'DELETE FROM contatos WHERE id = 1')) {
 
 
 
-echo "<br><br>Nome enviado: {$_post['nm']}, whatsapp: {echo "<br><br>Nome enviado: {$_POST['nm']}, whatsapp: {$_POST['whats']}";
+//echo "<br><br>Nome enviado: {$_post['nm']}, whatsapp: {echo "<br><br>Nome enviado: {$_POST['nm']}, whatsapp: {$_POST['whats']}";
