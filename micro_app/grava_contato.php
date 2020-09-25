@@ -16,6 +16,7 @@ $objStmt = $objBanco->prepare('	INSERT INTO contatos
 
 $objStmt->bindParam(':nm', $_POST['nm']);
 $objStmt->bindParam(':wzap', $_POST['whats']);
+
 //Executo
 
 if ($objStmt->execute()) {
