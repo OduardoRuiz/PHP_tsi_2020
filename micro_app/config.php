@@ -4,6 +4,6 @@ ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 
-define('DSN', 'mysql:dbname=cms;host=dockerhost'); // localhost na maioria dos PCs dos alunos
-define('DB_USER', 'cms');
-define('DB_PASS', 'cms');
+define('DSN', 'mysql:dbname=cmswp;host=localhost'); // localhost na maioria dos PCs dos alunos
+define('DB_USER', 'root');
+define('DB_PASS', '');
